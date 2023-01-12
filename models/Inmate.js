@@ -2,10 +2,22 @@ const mongoose = require('mongoose')
 
 const InmateSchema = new mongoose.Schema({
     //info about inmate included here
-    name: {
+    inmateName: {
         type: String,
         required: [true, 'Please provide inmate name'],
         maxlength:80
+    },
+    totalYears: {
+        type: Number,
+        required: [true, 'Please provide total years of incarceration'],
+    },
+    yearsLeft: {
+        type: Number,
+        required: [true, 'Please provide amount of years left of incarceration']
+    },
+    lifeSentence: {
+        type: Boolean,
+        required: [true, 'Please provide if life sentence is true or false']
     },
     crimeCommitted: {
         type: String,
