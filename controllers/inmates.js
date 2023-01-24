@@ -63,7 +63,7 @@ const deleteInmate = async (req, res) => {
     if(!inmate) {
         throw new NotFoundError(`No inmate with id ${inmateId}`)
     }
-    res.status(StatusCodes.OK).send()
+    res.status(StatusCodes.OK).json({msg: "The entry was deleted."})
 }
 
 
