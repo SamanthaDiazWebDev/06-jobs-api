@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    scroll-margin-top: 4.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.image {
+    border-style: double;
+    width:  450px;
+    height: 400px;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    margin: 0;
+    background-color: #b1dae7;
+    font-family: Arial, "Times New Roman", serif;
+}
+
+.login-register {
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+}
+
+#logon-button {
+    color: #ffffff;
+    background: black;
+    -moz-border: 1px solid white;
+    -webkit-border: 1px solid white;
+    border: 1px solid white;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+}
+
+#logon-cancel {
+    color: #ffffff;
+    background: black;
+    -moz-border: 1px solid white;
+    -webkit-border: 1px solid white;
+    border: 1px solid white;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+}
+
+#register-button {
+    color: #ffffff;
+    background: black;
+    -moz-border: 1px solid white;
+    -webkit-border: 1px solid white;
+    border: 1px solid white;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+}
+
+#register-cancel {
+    color: #ffffff;
+    background: black;
+    -moz-border: 1px solid white;
+    -webkit-border: 1px solid white;
+    border: 1px solid white;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+}
+  
+#logon {
+    color: #ffffff;
+    background: black;
+    -moz-border: 1px solid white;
+    -webkit-border: 1px solid white;
+    border: 1px solid white;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+}
+  
+#register {
+    color: #ffffff;
+    background: black;
+    -moz-border: 1px solid white;
+    -webkit-border: 1px solid white;
+    border: 1px solid white;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6); 
+}
+  
+button:hover {
+    background: #3475F8;
+    border: 1px solid #3475F8;
+}
+  
+td,
+th {
+      border: 1px solid black;
+      padding: 10px;
+      border: 2px solid rgb(2, 2, 2);
+}
+  
+td {
+      text-align: center;
+      border: 2px solid rgb(2, 2, 2);
+}
+  
+tr:nth-child(even) {
+      background-color: #eee;
+      border: 2px solid rgb(2, 2, 2);
+}
+  
+th[scope='col'] {
+      background-color: #696969;
+      color: #fff;
+      
+}
+  
+th[scope='row'] {
+      background-color: #d7d9f2;
+}
+
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-family: Arial, "Times New Roman", serif;;
+    font-size: 0.8rem;
+}
+
+#add-inmate {
+    color: #ffffff;
+    background: black;
+    -moz-border: 1px solid white;
+    -webkit-border: 1px solid white;
+    border: 1px solid white;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6); 
+}
+
+#logoff {
+    color: #ffffff;
+    background: black;
+    -moz-border: 1px solid white;
+    -webkit-border: 1px solid white;
+    border: 1px solid white;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(186, 198, 215, 0.6); 
+}
+
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 9rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    margin-right: 1rem;
+    padding: 10px;
+}
+
+.field_label {
+    color: white;
+    background-color: black;
+    border-style: double;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+
+
+
+
